@@ -45,7 +45,7 @@ const Seo = ({
     const seo = {
         title: defaultTitle || title,
         description: defaultDescription || description,
-        image: `${url}${image}`,
+        image: props.image ? props.image : `${url}${image}`,
         url: `${url}${pathname}`
     }
 

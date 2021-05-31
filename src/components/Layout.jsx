@@ -1,12 +1,13 @@
 import * as React from 'react';
 import Header from './Header';
+import Footer from './Footer';
 
 const Layout = ({ children }) => {
     return (
         <>
             <Header></Header>
             {children}
-            <footer>Este es el footer</footer>
+            <Footer></Footer>
         </>
     )
 }
