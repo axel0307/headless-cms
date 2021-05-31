@@ -1,9 +1,10 @@
 import * as React from 'react';
+import Header from './Header';
 
 const Layout = ({ children }) => {
     return (
         <>
-            <header>Este es el header</header>
+            <Header></Header>
             {children}
             <footer>Este es el footer</footer>
         </>
